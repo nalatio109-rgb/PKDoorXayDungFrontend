@@ -1,0 +1,23 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  /* Add top padding to account for fixed header, to be adjusted based on header height */
+  padding-top: 80px; 
+}
+
+/* Page Transition Wrapper if needed */
+.page-wrapper {
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .main-content {
+    padding-top: 70px;
+  }
+}
