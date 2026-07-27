@@ -1,8 +1,8 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
-const SEO = ({ title, description, name = 'PK Door', type = 'website' }) => {
-  const defaultDescription = "PK Door - Đơn vị thi công phần thô và kết cấu xây dựng chuyên nghiệp tại Đà Nẵng.";
+const SEO = ({ title, description, name = 'Xây Dựng Nhà Đà Nẵng', type = 'website' }) => {
+  const defaultDescription = "Xây Dựng Nhà Đà Nẵng - Đơn vị thi công phần thô và kết cấu xây dựng chuyên nghiệp tại Đà Nẵng.";
   const fullTitle = `${title} | ${name}`;
 
   return (

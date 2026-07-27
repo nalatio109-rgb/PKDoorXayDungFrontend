@@ -38,7 +38,7 @@ const Header = () => {
     <header className={`header ${scrolled ? 'header-scrolled' : ''} ${forceWhiteText ? 'header-white-text' : ''}`}>
       <div className="container header-container">
         <Link to="/" className="logo">
-          PK<span className="logo-accent">Door</span>
+          Xây Dựng Nhà <span className="logo-accent">Đà Nẵng</span>
         </Link>
 
         <nav className={`nav ${isOpen ? 'nav-open' : ''}`}>
@@ -58,9 +58,9 @@ const Header = () => {
 
         <div className="header-actions">
 
-          <a href="tel:0901234567" className="btn btn-primary contact-btn">
+          <a href="tel:0905943679" className="btn btn-primary contact-btn">
             <Phone size={18} />
-            <span>090 123 4567</span>
+            <span>0905 943 679</span>
           </a>
           <button 
             className="mobile-menu-btn" 

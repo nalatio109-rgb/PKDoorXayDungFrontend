@@ -13,7 +13,7 @@ const Contact = () => {
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4rem', marginTop: '3rem' }}>
           <div style={{ flex: '1 1 400px' }} className="animate-slide-right">
             <h3 style={{ fontSize: '1.75rem', color: 'var(--primary-dark)', marginBottom: '1.5rem' }}>Hãy gửi tin nhắn cho chúng tôi</h3>
-            <p style={{ color: 'var(--text-light)', marginBottom: '2rem' }}>Nếu bạn có bất kỳ thắc mắc hay yêu cầu nào, đừng ngần ngại liên hệ. Đội ngũ PK Door sẽ phản hồi sớm nhất.</p>
+            <p style={{ color: 'var(--text-light)', marginBottom: '2rem' }}>Nếu bạn có bất kỳ thắc mắc hay yêu cầu nào, đừng ngần ngại liên hệ. Đội ngũ Xây Dựng Nhà Đà Nẵng sẽ phản hồi sớm nhất.</p>
             
             <form style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }} onSubmit={(e) => e.preventDefault()}>
               <div>

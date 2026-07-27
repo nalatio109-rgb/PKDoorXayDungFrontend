@@ -4,10 +4,10 @@ const SectionHeading = ({ title, subtitle, className = '', dark = false }) => {
   return (
     <div className={`animate-fade-up ${className}`} style={{ marginBottom: '3rem', position: 'relative' }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1rem' }}>
-        <div style={{ height: '2px', width: '40px', backgroundColor: 'var(--accent)' }}></div>
+        <div style={{ height: '2px', width: '40px', backgroundColor: dark ? 'rgba(255, 255, 255, 0.85)' : 'var(--accent)' }}></div>
         {subtitle && (
           <span style={{
-            color: dark ? 'var(--accent)' : 'var(--primary)',
+            color: dark ? 'rgba(255, 255, 255, 0.85)' : 'var(--primary)',
             fontWeight: '700',
             textTransform: 'uppercase',
             letterSpacing: '0.15em',

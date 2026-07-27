@@ -22,7 +22,7 @@ const HeroSection = () => {
           </h1>
           
           <p className="hero-subtitle animate-fade-up delay-200">
-            PK Door tự hào mang đến chất lượng thi công phần thô vững chắc nhất, 
+            Xây Dựng Nhà Đà Nẵng tự hào mang đến chất lượng thi công phần thô vững chắc nhất, 
             kết hợp nghệ thuật kiến trúc và kỹ thuật thi công vượt thời gian.
           </p>
           

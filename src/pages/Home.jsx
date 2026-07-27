@@ -8,17 +8,17 @@ import { Building2, Wrench, Home as HomeIcon, CheckCircle2, ArrowRight } from 'l
 const Home = () => {
   const services = [
     {
-      icon: <Building2 size={32} className="text-accent" />,
+      icon: <Building2 size={32} color="#FFFFFF" />,
       title: "Xây Dựng Dân Dụng",
       description: "Giải pháp toàn diện từ thiết kế đến thi công nhà phố, biệt thự với tiêu chuẩn khắt khe nhất."
     },
     {
-      icon: <Wrench size={32} className="text-accent" />,
+      icon: <Wrench size={32} color="#FFFFFF" />,
       title: "Sửa Chữa & Cải Tạo",
       description: "Biến không gian cũ thành kiệt tác mới, nâng tầm chất lượng sống và giá trị bất động sản."
     },
     {
-      icon: <HomeIcon size={32} className="text-accent" />,
+      icon: <HomeIcon size={32} color="#FFFFFF" />,
       title: "Thiết Kế Kiến Trúc",
       description: "Giao thoa giữa nghệ thuật và công năng, tạo nên những công trình mang đậm dấu ấn cá nhân."
     }
@@ -28,7 +28,7 @@ const Home = () => {
     <div className="page-wrapper">
       <SEO 
         title="Trang Chủ" 
-        description="PK Door - Vững chắc từ nền móng. Chuyên thi công phần thô, khung kết cấu nhà tại Đà Nẵng."
+        description="Xây Dựng Nhà Đà Nẵng - Vững chắc từ nền móng. Chuyên thi công phần thô, khung kết cấu nhà tại Đà Nẵng."
       />
       
       <HeroSection />
@@ -101,18 +101,18 @@ const Home = () => {
           <div style={{ flex: '1 1 400px' }} className="animate-fade-up delay-200">
             <SectionHeading 
               title="Khởi Nguồn Của Những Kiệt Tác" 
-              subtitle="Về PK Door"
+              subtitle="Về Xây Dựng Nhà Đà Nẵng"
               dark={true}
               className="mb-0"
             />
             <p style={{ color: 'var(--text-muted)', marginBottom: '2.5rem', fontSize: '1.15rem', marginTop: '2rem' }}>
-              Hơn một thập kỷ qua, PK Door không chỉ xây dựng những ngôi nhà, chúng tôi kiến tạo những bộ khung vững chắc nhất cho mọi công trình. Chúng tôi tập trung 100% vào phần thô và kết cấu bê tông cốt thép.
+              Hơn một thập kỷ qua, Xây Dựng Nhà Đà Nẵng không chỉ xây dựng những ngôi nhà, chúng tôi kiến tạo những bộ khung vững chắc nhất cho mọi công trình. Chúng tôi tập trung 100% vào phần thô và kết cấu bê tông cốt thép.
             </p>
             <ul style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem', marginBottom: '3rem' }}>
               {['Vật liệu tuyển chọn khắt khe nhất', 'Đội ngũ chuyên gia hàng đầu ngành', 'Cam kết tiến độ và chất lượng tuyệt đối'].map((item, i) => (
                 <li key={i} style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
                   <div style={{ width: '24px', height: '24px', borderRadius: '50%', backgroundColor: 'rgba(0,212,255,0.1)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                    <CheckCircle2 color="var(--accent)" size={16} />
+                    <CheckCircle2 color="#60A5FA" size={16} />
                   </div>
                   <span style={{ fontSize: '1.05rem', fontWeight: '500' }}>{item}</span>
                 </li>
@@ -132,7 +132,7 @@ const Home = () => {
         <div className="container text-center animate-fade-up">
           <h2 style={{ fontSize: '3.5rem', marginBottom: '1.5rem', color: 'var(--primary-dark)' }}>Sẵn sàng cho dự án tiếp theo?</h2>
           <p style={{ color: 'var(--text-light)', fontSize: '1.25rem', marginBottom: '3rem', maxWidth: '700px', margin: '0 auto 3rem' }}>
-            Biến bản vẽ kỹ thuật thành hiện thực vững chắc với sự đồng hành của các kỹ sư kết cấu từ PK Door.
+            Biến bản vẽ kỹ thuật thành hiện thực vững chắc với sự đồng hành của các kỹ sư kết cấu từ Xây Dựng Nhà Đà Nẵng.
           </p>
           <div style={{ display: 'flex', justifyContent: 'center', gap: '1.5rem' }}>
             <Link to="/quote" className="btn btn-primary">Bắt Đầu Ngay</Link>
