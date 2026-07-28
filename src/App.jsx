@@ -8,6 +8,7 @@ import About from './pages/About';
 import Services from './pages/Services';
 import Projects from './pages/Projects';
 import News from './pages/News';
+import NewsDetail from './pages/NewsDetail';
 import Quote from './pages/Quote';
 import Contact from './pages/Contact';
 
@@ -24,6 +25,7 @@ function App() {
               <Route path="/services" element={<Services />} />
               <Route path="/projects" element={<Projects />} />
               <Route path="/news" element={<News />} />
+              <Route path="/news/:id" element={<NewsDetail />} />
               <Route path="/quote" element={<Quote />} />
               <Route path="/contact" element={<Contact />} />
             </Routes>

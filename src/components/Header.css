@@ -51,6 +51,7 @@
 }
 
 .nav-list a {
+  font-family: var(--font-heading);
   font-weight: 600;
   color: var(--text-light);
   font-size: 0.95rem;
